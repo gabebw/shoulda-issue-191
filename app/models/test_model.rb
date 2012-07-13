@@ -21,10 +21,6 @@ class TestModel
   #TODO in activerecord this is not needed, does new automatically generate nil for each field?
   attr_accessor :attributes, :first_name, :zip
 
-  def read_attribute_for_validation(key)
-    @attributes[key]
-  end
-
   def save
     if valid?
       #save method implementation

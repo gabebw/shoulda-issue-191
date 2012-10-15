@@ -2,4 +2,4 @@
 
 The bug is here: https://github.com/thoughtbot/shoulda/issues/191
 
-To see it <del>fail</del>pass, run `rake`.
+To see it <del>fail</del> pass, run `rake`.
